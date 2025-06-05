@@ -1,4 +1,4 @@
-# Chrome WebSocket Viewer
+# WebSocket Frame Inspector
 
 [Chrome WebStore link](https://chrome.google.com/webstore/detail/websocket-frame-inspector/nlajeopfbepekemjhkjcbbnencojpaae)
 
