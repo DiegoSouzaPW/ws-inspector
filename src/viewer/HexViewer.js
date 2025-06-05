@@ -6,7 +6,7 @@ export default class HexViewer extends React.Component {
   render() {
     const { data, className, ...props } = this.props;
     let numDigits = 4;
-    while (1 << (numDigits * 4) <= data.length) {
+    while (Math.pow(16, numDigits) <= data.length) {
       numDigits += 1;
     }
     const lineNumbers = [], hexView = [], asciiView = [];
